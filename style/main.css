@@ -16,7 +16,6 @@ body {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    overflow:hidden
 }
 
 .text {
@@ -77,13 +76,13 @@ h1 span {
 }
 
 .main img {
-    width: 829px;
+    width: 680px;
     position: absolute;
-    right: -168px;
+    left: 4px;
 }
 
 .promo-left,
-.promo-right{
+.promo-right {
     flex: 0 0 49%;
     color: #fff;
     box-sizing: border-box;
@@ -103,7 +102,7 @@ h1 span {
 .sale {
     font-size: 14px;
     font-weight: 900;
-    background: #F37335;
+    background: #f37335;
     padding: 5px 19px;
     border-radius: 14px;
     display: inline-block;
@@ -116,7 +115,7 @@ h1 span {
     margin-bottom: 8px;
 }
 .description {
-    color:#FAF9F9;
+    color: #faf9f9;
     font-family: "Lato", sans-serif;
     font-size: 15px;
     line-height: 24px;
@@ -126,11 +125,11 @@ h1 span {
     padding: 102px 50px;
 }
 
-.promo-left .description{
+.promo-left .description {
     max-width: 392px;
 }
 
-.promo-right .description{
+.promo-right .description {
     max-width: 300px;
     margin-bottom: 20px;
 }
@@ -141,13 +140,13 @@ h1 span {
 }
 
 .footer {
-    background: #1E2F40;
+    background: #1e2f40;
     color: #fff;
     padding-top: 117px;
     padding-bottom: 106px;
 }
 
-.Logo{
+.Logo {
     width: 63px;
     height: 56px;
 }
@@ -155,7 +154,7 @@ h1 span {
     flex: 0 0 auto;
 }
 
-.item h2{
+.item h2 {
     font-size: 20px;
     font-weight: 800;
     text-transform: uppercase;
@@ -171,29 +170,29 @@ h1 span {
     margin-bottom: 9px;
     font-family: "Lato", sans-serif;
     font-size: 15px;
-    color: #FAF9F9;
+    color: #faf9f9;
     font-weight: 700;
     line-height: 2.4;
 }
 
 .item a {
-    color: #DEDEDE;
+    color: #dedede;
     text-decoration: none;
     font-weight: 400;
 }
 
 .item span {
     display: block;
-    color: #DEDEDE;
+    color: #dedede;
     font-weight: 400;
     margin-bottom: 2px;
 }
 
 .tel ul {
     font-size: 20px;
-    color: #FBB731;
+    color: #fbb731;
 }
 
-.tel li{
+.tel li {
     margin-bottom: 12px;
 }
